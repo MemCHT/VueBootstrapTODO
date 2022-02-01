@@ -34,10 +34,13 @@
     - molcules
     - organisms
     - templates
+  - router
+    - index.js
+  - store
+    - index.js
   - views
   - App.vue
   - main.js
-  - store.js
 - ...その他MDBパッケージ
 
 
