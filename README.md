@@ -52,6 +52,7 @@
 ## 外部ライブラリ導入
 1. Bootstrap(cssライブラリ)導入 
     - [Vue Cliを使いつつBootstrapVueを導入する方法](https://nekorokkekun.hatenablog.com/entry/2019/07/31/162227)
+    - [Bootstrap公式ドキュメント](https://getbootstrap.jp/docs/4.5/components/forms/)
 
 2. moments.js(js Date拡張ライブラリ)
     - https://qiita.com/Nossa/items/7fd83e3e7b8230058af3
