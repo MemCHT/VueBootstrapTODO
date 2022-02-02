@@ -17,6 +17,13 @@ export default new Vuex.Store({
         id: state.todoList.slice(-1)[0].id + 1,
         ...payload
       });
+    },
+    updateTodo(state, payload){
+      const index = state.todoList.findIndex( todo => todo.id === payload.id );
+      state.todoList[index] = {
+        ...state.todoList[index],
+        ...payload
+      }
     }
   },
   actions: {

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Index from '../views/Index.vue'
+import UpdateTodo from '../views/UpdateTodo.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'Index',
     component: Index
+  },
+  {
+    path: '/todo/:id/update',
+    name: 'UpdateTodo',
+    component: UpdateTodo
   },
   {
     path: '/about',

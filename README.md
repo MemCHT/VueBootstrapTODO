@@ -71,3 +71,8 @@
       }
       </script>
     ```
+
+# コンポーネント設計
+## 考えるべき点
+1. Atomic Design
+  - atoms < molecules < organisms < templates < pages
