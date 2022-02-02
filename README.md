@@ -76,3 +76,10 @@
 ## 考えるべき点
 1. Atomic Design
   - atoms < molecules < organisms < templates < pages
+2. 設計の軸
+  - 変更しやすい
+  - 流用しやすい
+
+## AtomicDesign どのように分けるか？
+【参考】  
+- [moleculesとorganismsをどのように分けるか](https://frasco.io/atomic-design-molecules-organisms-dc937b5989)
